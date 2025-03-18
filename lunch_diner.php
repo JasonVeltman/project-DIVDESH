@@ -7,13 +7,30 @@
     <meta name="keywords" content="">
     <meta name="author" content="Jason Veltman, Josh Roelse">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/style.css"> 
+    <title>Lunch_Diner</title>
+    <link rel="stylesheet" href="css/Josh.css"> 
 </head>
 
 <body>
 
-    <?php require 'php/header.php'; ?> 
+    <?php require 'HF/header.php'; ?> 
+
+<section>
+    <article>
+        <img src="img/Lunch_diner.png" alt="banner" class="bannerLunchDiner">
+    </article>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <?php require 'HF/footer.php'; ?>
 
 </body>
 
