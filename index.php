@@ -13,7 +13,7 @@
 
 <body>
 
-    <?php require 'php/header.php'; ?> 
+    <?php require 'HF/header.php'; ?> 
 
 <div class="text"> Umami Sushi is een
                     sfeervol sushi-restaurant met
