@@ -22,13 +22,10 @@
 </section>
 
 
-
-
-
-
-
-
-
+<h1>Lunch</h1>
+<p>Crispy sushi bites - 12</p>
+<p>Maki - 12</p>
+<p>Crispy sushi - 12</p>
 
     <?php require 'HF/footer.php'; ?>
 
