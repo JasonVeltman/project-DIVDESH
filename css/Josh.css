@@ -7,6 +7,25 @@ body{
     font-family: Arial, sans-serif;
 }
 
+nav {
+    position: relative;
+}
+
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
 
 .Klogo {
     display: none;
@@ -27,10 +46,34 @@ body{
         width: 10vw; 
         height: 10vw;
     }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 0;
+    }
 }
 
-
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .Glogo {
         display: block;
     }
@@ -41,7 +84,6 @@ body{
         width: 5vw; 
         height: 5vw;
     }
-
 
 a {
     text-decoration: none;
@@ -79,6 +121,5 @@ social-icons img:hover {
     display: flex;
     height: 20vh; 
 }
-
 
 }
