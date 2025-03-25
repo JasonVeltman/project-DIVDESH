@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Jason Veltman, Josh Roelse, Mohamed Mussa">
+    <meta name="author" content="Josh Roelse">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css"> 
@@ -13,7 +13,10 @@
 
 <body>
 
-    <?php require 'php/header.php'; ?> 
+    <?php require 'HF/header.php'; ?> 
+
+
+   
 
 </body>
 
