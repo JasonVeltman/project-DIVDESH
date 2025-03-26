@@ -15,7 +15,7 @@
             <img src="img/Facebook.png" alt="Facebook">
         </a>
         <a href="https://instagram.com" target="_blank">
-            <img src="img/Instagram.png" alt="Instagram">
+            <img src="img/instagram.png" alt="Instagram">
         </a>
         <a href="https://twitter.com" target="_blank">
             <img src="img/x.png" alt="X">

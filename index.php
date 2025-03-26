@@ -19,10 +19,11 @@
         </section>
 
         <section class="content">
-            <p>Umami Sushi is een sfeervol sushi-restaurant met verse, smaakvolle Japanse gerechten. Geniet van diverse
-                sushirollen, sashimi en warme specialiteiten in een moderne en gastvrije ambiance.</p>
-            <a href="reserveren.php" class="button">reserveren</a>
+            <p>Umami Sushi is een sfeervol sushi-restaurant met verse, <br>smaakvolle Japanse gerechten. Geniet van diverse
+                sushirollen, sashimi en warme specialiteiten in een moderne<br> en gastvrije ambiance.</p>
         </section>
+        
+        <a href="reserveren.php" class="button">reserveren</a>
 
     </main>
     <?php require 'HF/footer.php'; ?>
