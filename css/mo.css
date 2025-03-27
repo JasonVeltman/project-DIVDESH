@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: #333;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding: 3vh;
+    margin-right: 2vw;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav img {
+    height: 25vh;
+}
+
+.Klogo {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    margin-top: 5vh;
+}
+
+footer img {
+    height: 10%;
+    width: 10%;
+    padding: 5vw;
+    padding-top: 2vh;
+}
+
+.button {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #ebb112;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    border-radius: 12px;
+    margin-bottom: 10vh;
+}
+
+/* Images section */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Vacatures section */
+.vacatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.vacature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vacature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vacature article {
+    text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 428px) {
+    .Glogo {
+        display: none;
+    }
+
+    .begin_img {
+        height: 25vh;
+    }
+
+    .button {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media (min-width: 429px) and (max-width: 1023px) {
+    .Klogo {
+        display: none;
+    }
+
+    nav a {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav img {
+        height: 20vh;
+    }
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.img1 {
+height: 50vh;
+width: 50vh;
+}
+
+.img2 {
+    height: 50vh;
+    width: 50vh;
+}
+.img3 {
+    height: 50vh;
+    width: 50vh;
+}
+.img4 {
+    height: 50vh;
+    width: 50vh;
+}
