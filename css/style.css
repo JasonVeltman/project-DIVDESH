@@ -15,13 +15,17 @@ header {
 }
 
 nav a {
-    float: right;
     padding: 3vh;
     margin-right: 2vw;
     margin-top: 10vh;
     color: #fff;
     text-decoration: none;
     font-size: 25px;
+    display: flex;
+}
+
+nav{
+    display: flex;
 }
 
 nav a:hover {
@@ -29,7 +33,6 @@ nav a:hover {
 }
 
 nav img {
-    width: 13vw;
     height: 25vh;
 }
 
@@ -95,9 +98,17 @@ footer img {
     .begin_img {
         height: 25vh;
     }
+<<<<<<< Updated upstream
 header{
     height: 50vh;
 }
+=======
+
+    header {
+        height: 50vh;
+        display: flex;
+    }
+>>>>>>> Stashed changes
 
 }
 
@@ -107,18 +118,18 @@ header{
     }
 
     nav a {
-        float: right;
-        padding: 3vh;
-        margin-right: 2vw;
-        margin-top: 10vh;
         color: #fff;
         text-decoration: none;
+        padding: 0px;
+        margin: 0px;
         display: flex;
+        flex-direction: column;
+        align-items: right;
+
     }
 
-    nav img{
-        width: 10vw;
-
+    nav img {
+        height: 20vh;
     }
 
 }
