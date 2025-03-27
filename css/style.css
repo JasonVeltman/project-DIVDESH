@@ -98,17 +98,9 @@ footer img {
     .begin_img {
         height: 25vh;
     }
-<<<<<<< Updated upstream
 header{
     height: 50vh;
 }
-=======
-
-    header {
-        height: 50vh;
-        display: flex;
-    }
->>>>>>> Stashed changes
 
 }
 
