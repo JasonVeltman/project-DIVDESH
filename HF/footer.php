@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Footer section of the website.">
+    <meta name="keywords" content="footer, social media, links">
+    <meta name="author" content="Josh Roelse">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>

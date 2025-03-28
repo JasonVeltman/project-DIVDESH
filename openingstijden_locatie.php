@@ -16,9 +16,11 @@
     <?php require 'HF/header.php'; ?>
 
 
-<section><article>
-    <img src="img/sushibord.png" alt="banner" class="bannerOpeningstijden">
-</article></section>
+    <section>
+        <article>
+            <img src="img/sushibord.png" alt="banner" class="bannerOpeningstijden">
+        </article>
+    </section>
 
     <section class="openingstijden">
         <article>
@@ -42,14 +44,16 @@
             <p>email: info@umamileiden.nl</p>
             <p>Telefoonnummer: 088-2324456</p>
         </article>
+        <article class="locatieKaart">
+            <h1>Locatie Kaart</h1>
+            <a href="https://maps.google.com/maps"><img src="img/map.png" alt="kaart" class="kaart"></a>
+        </article>
+
     </section>
 
-    <section class="locatieKaart">
-        <article>
-            <h1>Locatie Kaart</h1>
-           <a href="https://maps.google.com/maps"><img src="img/map.png" alt="kaart" class="kaart"></a>
-        </article>
-    <?php require 'HF/footer.php'; ?>
+    
+
+        <?php require 'HF/footer.php'; ?>
 
 </body>
 
