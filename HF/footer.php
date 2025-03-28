@@ -14,13 +14,13 @@
 
 <section>
     <article class="social-icons">
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://facebook.com">
             <img src="img/Facebook.png" alt="Facebook">
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://instagram.com">
             <img src="img/instagram.png" alt="Instagram">
         </a>
-        <a href="https://twitter.com" target="_blank">
+        <a href="https://twitter.com">
             <img src="img/x.png" alt="X">
         </a>
     </article>
