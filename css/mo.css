@@ -1,3 +1,4 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,19 @@
 body {
     background-color: #fff;
     font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
 header {
     padding: 10px;
     background-color: #333;
     width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -56,55 +64,35 @@ footer img {
 
 .button {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
     background-color: #ebb112;
-    font-size: 28px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    margin-left: 25vw;
+    height: 175px;
+    width: 500px;
+    margin-left: 35vw;
     margin-right: 25vw;
     border-radius: 12px;
     margin-bottom: 10vh;
+    cursor: pointer;
 }
 
-/* Images section */
-.images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 80%;
-    margin: 20px 0;
-}
-
-.images img {
-    max-width: 100%;
-    height: auto;
+/* Image section */
+.image-section1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
 }
 
 /* Vacatures section */
-.vacatures {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 80%;
-    margin: 20px 0;
-}
-
-.vacature {
+.vactures {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.vacature img {
-    max-width: 100%;
-    height: auto;
-}
-
-.vacature article {
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 15px 0;
 }
 
 /* Media queries */
@@ -120,8 +108,32 @@ footer img {
     .button {
         margin-left: 10vw;
         margin-right: 10vw;
+        font-size: 20px;
+        height: 100px;
+        width: 250px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 2vh;
+        margin-right: 1vw;
+    }
+
+    nav img {
+        height: 15vh;
+    }
+
+    .vactures img {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    .vactures h1,
+    p {
+        font-size: 20px;
     }
 }
+
 
 @media (min-width: 429px) and (max-width: 1023px) {
     .Klogo {
@@ -139,6 +151,24 @@ footer img {
     nav img {
         height: 20vh;
     }
+
+    button {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        font-size: 30px;
+        height: 150px;
+        width: 400px;
+    }
+
+    .vactures img {
+        width: 60vh;
+        height: 60vh;
+    }
+
+    .vactures h1,
+    p {
+        font-size: 22px;
+    }
 }
 
 .hamburger-menu {
@@ -146,19 +176,26 @@ footer img {
 }
 
 .img1 {
-height: 50vh;
-width: 50vh;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
 }
 
-.img2 {
-    height: 50vh;
-    width: 50vh;
+.vactures img {
+    flex-wrap: wrap;
+    width: 70vh;
+    height: 70vh;
+    margin: 10px 0;
 }
-.img3 {
-    height: 50vh;
-    width: 50vh;
+
+.vactures h1,
+p {
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-style: italic;
 }
+
 .img4 {
-    height: 50vh;
     width: 50vh;
+
 }
