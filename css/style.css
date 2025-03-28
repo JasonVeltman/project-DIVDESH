@@ -90,29 +90,29 @@ footer img {
 
 }
 
-.LunchDinercontainer {
+.LunchDinerContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    align-items: start;
-    padding: 20px;
-    text-align: center;
-}
+    gap: 20px;}
 
-.LunchDinercontainer article img {
-    width: auto;
-    height: 300px;
-}
 
-.LunchDinercontainer article h1,
-.LunchDinercontainer article p {
+
+.LunchDinerContainer article h1,
+.LunchDinerContainer article p {
     margin-top: 10px;
 }
 
-.bannerLunchDiner,
+.bannerLunchDiner {
+    max-width: 100%;
+    width: 20vw;
+    height: 30vh;
+    display: block;
+    margin: 0 auto;
+}
+
 .sushiOnigiri {
-    width: 100%;
-    height: auto;
+    width: 20vw;
+    height: 30vh;
 }
 
 .openingstijden, .locatie, .locatieKaart {

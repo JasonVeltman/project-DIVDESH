@@ -16,7 +16,7 @@
 
     <?php require 'HF/header.php'; ?>
 
-    <section class="LunchDiner-container">
+    <section class="LunchDinerContainer">
         <article>
             <img src="img/Lunch_diner.png" alt="banner" class="bannerLunchDiner">
             <h1>Lunch</h1>
