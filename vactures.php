@@ -16,23 +16,24 @@
     <?php require 'HF/header.php'; ?> 
 
     <section> 
-      <img src="img/Vactures 2.png" alt="Sushi kok">  
-      <img src="img/Vactures 4.png" alt="Serveerder">
+      <img src="img/Vactures 2.png" alt="Sushi kok" class="img1">  
+      <img src="img/Vactures 4.png" alt="Serveerder" class="img2">
     </section>
 
     <section> 
-      <img src="img/Vactures 3.png" alt="bannerKok">
+      <img src="img/Vactures 3.png" alt="bannerKok" class="img3">
         <article>
         <h1>Sushi kok</h1>
         <p>25 uur</p>
         </article>
-      <img src="img/Vactures 1.png" alt="bannerServeerder">
+      <img src="img/Vactures 1.png" alt="bannerServeerder" class="img4">
         <article>
         <h1>Serveerder</h1>
         <p>25 uur</p>
         </article>
     </section>
 
+    <a href="index.php" class="button">Soliciteer hier!</a>
     
     <?php require 'HF/footer.php'; ?>
 

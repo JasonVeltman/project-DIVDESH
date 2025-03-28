@@ -90,6 +90,58 @@ footer img {
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container article img {
+    width: auto;
+    height: 300px;
+}
+
+.grid-container article h1,
+.grid-container article p {
+    margin-top: 10px;
+}
+
+.bannerLunchDiner,
+.sushiOnigiri {
+    width: 100%;
+    height: auto;
+}
+
+.openingstijden, .locatie, .locatieKaart {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin-top: 5vh;
+}
+
+.bannerOpeningstijden {
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+}
+
+.kaart {
+    width: 20vhvw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locatieKaart img {
+    max-width: 100%; 
+    height: auto;
+}
+
 @media (max-width: 428px) {
     .Glogo {
         display: none;
