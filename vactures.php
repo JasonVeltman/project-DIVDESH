@@ -34,7 +34,7 @@
             </article>
         <img src="img/Bezorger.webp" alt="Serveerder" class="img5">
         <article>
-                <h1>Bezorgen met auto</h1>
+                <h1>Bezorg met scooter</h1>
                 <p>35 uur per week </p>
             </article>
     </section>
