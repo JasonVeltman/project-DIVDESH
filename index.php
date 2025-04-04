@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Umami Sushi - De beste sushi in Leiden. Geniet van onze heerlijke gerechten en reserveer vandaag nog!">
+    <meta name="description" content="Umami Sushi - De beste sushi in Leiden. Geniet van onze heerlijke gerechten en reserveer vandaag nog!">
     <meta name="keywords" content="Umami Sushi, sushi, restaurant, Leiden, reserveren, Japanse gerechten">
     <meta name="author" content="Jason Veltman">
     <title>Umami Sushi</title>

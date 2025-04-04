@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Umami Sushi - De beste sushi in Leiden. Geniet van onze heerlijke gerechten en reserveer vandaag nog!">
+    <meta name="keywords" content="Umami Sushi, sushi, restaurant, Leiden, reserveren, Japanse gerechten">
     <meta name="author" content="Jason Veltman">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -17,7 +17,7 @@
     <main>
 
         <section class="main-img">
-            <img src="img/home_sushi.png" alt="Sushi Image" class="begin_img">
+            <img src="img/Reserveren.png" alt="Sushi Image" class="begin_img">
         </section>
         <form class="content">
             <label for="L/D">Lunch/Diner</label><br>
