@@ -147,10 +147,6 @@ footer img {
     margin-left: 2%;
 }
 
-.locatie article {
-    flex: 1;
-}
-
 .locatieKaart {
     display: flex;
     justify-content: flex-end;
